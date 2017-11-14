@@ -1,0 +1,41 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	display: table;
+}
+
+.container .carousel {
+	width:100%;
+	padding-bottom: 0px;
+
+}
+.container1 .carousel {
+	width: 100%;
+}
+
+@media screen and (max-width: 880px) {
+	.jumbotron, h1 {
+		font-size: 10%;
+	}
+	.jumbotron, p {
+		font-size: 50%;
+	}
+	.container, .carousel{
+		width: 100%;
+	}
+	.container, p {
+		font-size: 70%;
+	}
+
+	.jumbotron, .container {
+		padding-top: 2%
+	}
+
+	.imgf {
+		width: 50%;
+		height: 50%;
+	}
+}
